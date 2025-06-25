@@ -24,13 +24,57 @@
       <button id="lang-toggle" class="lang-btn">VI</button>
     </nav>
   </header>
+
+  <!-- Mobile Toggle Button -->
+  <button class="mobile-toggle" id="mobile-toggle">
+    <div class="mobile-toggle__icon">
+      <div class="mobile-toggle__line"></div>
+      <div class="mobile-toggle__line"></div>
+      <div class="mobile-toggle__line"></div>
+    </div>
+  </button>
+
+  <!-- Mobile Sidebar -->
+  <div class="mobile-sidebar" id="mobile-sidebar">
+    <div class="mobile-sidebar__header">
+      <div class="mobile-sidebar__title" data-lang-en="Pham Ngoc Tung Lam" data-lang-vi="Phạm Ngọc Tùng Lâm">Pham Ngoc
+        Tung Lam</div>
+      <div class="mobile-sidebar__subtitle" data-lang-en="Backend Developer" data-lang-vi="Lập trình viên Backend">
+        Backend Developer</div>
+    </div>
+
+    <nav class="mobile-sidebar__nav">
+      <a href="#about" class="mobile-sidebar__link" data-lang-en="About Me" data-lang-vi="Giới thiệu">About Me</a>
+      <a href="#skills" class="mobile-sidebar__link" data-lang-en="Skills" data-lang-vi="Kỹ năng">Skills</a>
+      <a href="#projects" class="mobile-sidebar__link" data-lang-en="Projects" data-lang-vi="Dự án">Projects</a>
+      <a href="#experience" class="mobile-sidebar__link" data-lang-en="Experience Timeline"
+        data-lang-vi="Kinh nghiệm">Experience Timeline</a>
+      <a href="#contact" class="mobile-sidebar__link" data-lang-en="Contact" data-lang-vi="Liên hệ">Contact</a>
+    </nav>
+
+    <div class="mobile-sidebar__footer">
+      <div class="mobile-sidebar__lang">
+        <button class="mobile-sidebar__lang-btn" data-lang="en">EN</button>
+        <button class="mobile-sidebar__lang-btn active" data-lang="vi">VI</button>
+      </div>
+      <div class="mobile-sidebar__contact" data-lang-en="Get in touch" data-lang-vi="Liên hệ">Get in touch</div>
+      <div class="mobile-sidebar__social">
+        <a href="https://www.facebook.com/phamlamdeptrai/" target="_blank" title="Facebook">📘</a>
+        <a href="https://github.com/lampnthe173556" target="_blank" title="GitHub">🐙</a>
+        <a href="mailto:pntlam12g03@gmail.com" title="Email">📧</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
   <main>
     <!-- Hero Section -->
     <section class="hero section-fade visible" id="hero" style="margin-bottom:3.5rem;">
       <div class="hero__container">
         <div class="hero__avatar-wrap">
-          <img class="hero__avatar" src="./img/avatar_2.jpg"
-            alt="Pham Ngoc Tung Lam avatar" />
+          <img class="hero__avatar" src="./img/avatar_2.jpg" alt="Pham Ngoc Tung Lam avatar" />
         </div>
         <div class="hero__info">
           <h1 class="hero__name" data-lang-en="Pham Ngoc Tung Lam" data-lang-vi="Phạm Ngọc Tùng Lâm">Pham Ngoc Tung Lam
