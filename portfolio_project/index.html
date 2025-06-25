@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Pham Ngoc Tung Lam - Portfolio</title>
+  <link rel="icon" type="image/png" href="img/logo-dai-hoc-fpt.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <a href="#about" class="nav-link" data-lang-en="About Me" data-lang-vi="Giới thiệu">About Me</a>
+      <a href="#skills" class="nav-link" data-lang-en="Skills" data-lang-vi="Kỹ năng">Skills</a>
+      <a href="#projects" class="nav-link" data-lang-en="Projects" data-lang-vi="Dự án">Projects</a>
+      <a href="#experience" class="nav-link" data-lang-en="Experience Timeline" data-lang-vi="Kinh nghiệm">Experience
+        Timeline</a>
+      <a href="#contact" class="nav-link" data-lang-en="Contact" data-lang-vi="Liên hệ">Contact</a>
+      <button id="lang-toggle" class="lang-btn">VI</button>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section-fade visible" id="hero" style="margin-bottom:3.5rem;">
+      <div class="hero__container">
+        <div class="hero__avatar-wrap">
+          <img class="hero__avatar" src="./img/avatar_2.jpg"
+            alt="Pham Ngoc Tung Lam avatar" />
+        </div>
+        <div class="hero__info">
+          <h1 class="hero__name" data-lang-en="Pham Ngoc Tung Lam" data-lang-vi="Phạm Ngọc Tùng Lâm">Pham Ngoc Tung Lam
+          </h1>
+          <h2 class="hero__role" data-lang-en="Fresher Backend Developer (.NET)"
+            data-lang-vi="Fresher Lập trình viên Backend (.NET)">
+            Fresher Backend Developer (.NET)
+          </h2>
+          <div class="hero__contact">
+            <a href="#contact" class="btn btn-primary" data-lang-en="Contact" data-lang-vi="Liên hệ">Contact</a>
+            <a href="mailto:pntlam12g03@gmail.com" class="btn btn-outline" data-lang-en="Email"
+              data-lang-vi="Email">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about section-fade visible" id="about" style="margin-bottom:3.5rem;">
+      <div class="section-title" data-lang-en="About Me" data-lang-vi="Giới thiệu" style="margin-bottom:2.5rem;">About
+        Me</div>
+      <div class="about__content">
+        <p data-lang-en="Final-year Software Engineering student at FPT University, passionate about .NET backend development. Eager to learn, adapt quickly, and looking for opportunities to become a professional Backend Developer. Solid foundation in C#, .NET Core, and SQL Server. Ready to contribute and grow in a real-world working environment."
+          data-lang-vi="Sinh viên năm cuối ngành Kỹ thuật phần mềm tại Đại học FPT, đam mê phát triển backend với .NET. Ham học hỏi, tiếp thu nhanh, mong muốn tìm kiếm cơ hội trở thành Backend Developer chuyên nghiệp. Nắm vững kiến thức nền tảng về C#, .NET Core, SQL Server. Sẵn sàng học hỏi và đóng góp trong môi trường làm việc thực tế.">
+          Final-year Software Engineering student at FPT University, passionate about .NET backend development. Eager to
+          learn, adapt quickly, and looking for opportunities to become a professional Backend Developer. Solid
+          foundation in C#, .NET Core, and SQL Server. Ready to contribute and grow in a real-world working environment.
+        </p>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills section-fade visible" id="skills" style="margin-bottom:3.5rem;">
+      <div class="section-title" data-lang-en="Skills" data-lang-vi="Kỹ năng" style="margin-bottom:2.5rem;">Skills</div>
+      <div class="skills__grid">
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
+          <span data-lang-en="C#" data-lang-vi="C#">C#</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET Core" />
+          <span data-lang-en=".NET Core" data-lang-vi=".NET Core">.NET Core</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:55%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+          <span data-lang-en="MySQL" data-lang-vi="MySQL">MySQL</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:45%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+            alt="SQL Server" />
+          <span data-lang-en="SQL Server" data-lang-vi="SQL Server">SQL Server</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:45%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+          <span data-lang-en="Git" data-lang-vi="Git">Git</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:45%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript" />
+          <span data-lang-en="JavaScript" data-lang-vi="JavaScript">JavaScript</span>
+          <div class="skill__bar">
+            <div class="skill__progress" style="width:35%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-fade visible" id="projects" style="margin-bottom:3.5rem;">
+      <div class="section-title" data-lang-en="Selected Projects" data-lang-vi="Dự án tiêu biểu"
+        style="margin-bottom:2.5rem;">Selected Projects</div>
+      <div class="projects__grid">
+        <div class="project-card">
+          <div class="project-thumb" style="background-image:url('./img/project_1.png')"></div>
+          <div class="project-content">
+            <h3 data-lang-en="Online Plant Sales Platform" data-lang-vi="Nền tảng bán cây cảnh online">Online Plant
+              Sales Platform</h3>
+            <div class="project-meta" data-lang-en="Team: 2 | 2025" data-lang-vi="Nhóm: 2 | 2025">Team: 2 | 2025</div>
+            <div class="project-tech" data-lang-en="ASP.NET Core MVC, SQL Server, MinIO, RazorLight, Bootstrap"
+              data-lang-vi="ASP.NET Core MVC, SQL Server, MinIO, RazorLight, Bootstrap">ASP.NET Core MVC, SQL Server,
+              MinIO, RazorLight, Bootstrap</div>
+            <div class="project-links">
+              <a href="https://github.com/lampnthe173556/SU25_EXE201_HouseWithLeaves_Project" target="_blank">GitHub</a>
+            </div>
+            <div class="project-desc"
+              data-lang-en="E-commerce web app for plant sales, order management, QR/COD payment, automated email, RBAC authorization."
+              data-lang-vi="Web bán cây cảnh, quản lý đơn hàng, thanh toán QR/COD, email tự động, phân quyền RBAC.">
+              E-commerce web app for plant sales, order management, QR/COD payment, automated email, RBAC authorization.
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background-image:url('./img/project_2.png')"></div>
+          <div class="project-content">
+            <h3 data-lang-en="Manage School Schedules" data-lang-vi="Quản lý thời khóa biểu">Manage School Schedules
+            </h3>
+            <div class="project-meta" data-lang-en="Team: 4 | 2025" data-lang-vi="Nhóm: 4 | 2025">Team: 4 | 2025</div>
+            <div class="project-tech" data-lang-en="ASP.NET Core Web API, OData, JWT, Google Auth, MailKit"
+              data-lang-vi="ASP.NET Core Web API, OData, JWT, Google Auth, MailKit">ASP.NET Core Web API, OData, JWT,
+              Google Auth, MailKit</div>
+            <div class="project-links">
+              <a href="https://github.com/lamnthe172601/Manegement_Schedule" target="_blank">GitHub</a>
+            </div>
+            <div class="project-desc"
+              data-lang-en="RESTful API for schedule management, JWT authentication, Google login, automated email, Next.js frontend."
+              data-lang-vi="API quản lý thời khóa biểu, xác thực JWT, đăng nhập Google, gửi email tự động, frontend Next.js.">
+              RESTful API for schedule management, JWT authentication, Google login, automated email, Next.js frontend.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Timeline -->
+    <section class="timeline section-fade visible" id="experience" style="margin-bottom:3.5rem;">
+      <div class="section-title" data-lang-en="Experience Timeline" data-lang-vi="Kinh nghiệm"
+        style="margin-bottom:2.5rem;">Experience Timeline</div>
+      <div class="timeline__wrapper">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__role" data-lang-en="Backend Developer Intern"
+              data-lang-vi="Thực tập sinh Backend Developer">Backend Developer Intern</div>
+            <div class="timeline__company" data-lang-en="FPT Software" data-lang-vi="FPT Software">FPT Software</div>
+            <div class="timeline__duration">08/2024 – 01/2025</div>
+            <div class="timeline__stack" data-lang-en="Project: Cast System (100 members)"
+              data-lang-vi="Dự án: Cast System (100 thành viên)">Project: Cast System (100 members)</div>
+            <div class="timeline__stack" data-lang-en="Technologies: VB.NET, Bootstrap, SQL Server"
+              data-lang-vi="Công nghệ: VB.NET, Bootstrap, SQL Server">Technologies: VB.NET, Bootstrap, SQL Server</div>
+            <div class="timeline__stack"
+              data-lang-en="Description: Project confidentiality agreement signed, details not disclosed."
+              data-lang-vi="Mô tả: Do bảo mật, không thể công khai chi tiết dự án.">Description: Project confidentiality
+              agreement signed, details not disclosed.</div>
+            <ul class="timeline__bullets">
+              <li data-lang-en="Participated in developing core business logic modules using VB.NET."
+                data-lang-vi="Tham gia phát triển các module nghiệp vụ cốt lõi bằng VB.NET.">Participated in developing
+                core business logic modules using VB.NET.</li>
+              <li data-lang-en="Developed web-based user interface (UI) components with Bootstrap."
+                data-lang-vi="Phát triển giao diện web (UI) với Bootstrap.">Developed web-based user interface (UI)
+                components with Bootstrap.</li>
+              <li
+                data-lang-en="Collaborated with the QA team to analyze and resolve bugs using Jira, ensuring product quality."
+                data-lang-vi="Phối hợp với QA phân tích, xử lý bug bằng Jira, đảm bảo chất lượng sản phẩm.">Collaborated
+                with the QA team to analyze and resolve bugs using Jira, ensuring product quality.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__role" data-lang-en="Personal Project" data-lang-vi="Dự án cá nhân">Personal Project
+            </div>
+            <div class="timeline__company" data-lang-en="Online Plant Sales Platform"
+              data-lang-vi="Nền tảng bán cây cảnh online">Online Plant Sales Platform <span class="timeline__team">(2
+                members)</span></div>
+            <div class="timeline__duration">05/2025 – 06/2025</div>
+            <div class="timeline__stack"
+              data-lang-en="Technologies: C#, ASP.NET Core MVC, Entity Framework, SQL Server, AutoMapper, FluentValidation, MinIO, RazorLight, Bootstrap, Git"
+              data-lang-vi="Công nghệ: C#, ASP.NET Core MVC, Entity Framework, SQL Server, AutoMapper, FluentValidation, MinIO, RazorLight, Bootstrap, Git">
+              Technologies: C#, ASP.NET Core MVC, Entity Framework, SQL Server, AutoMapper, FluentValidation, MinIO,
+              RazorLight, Bootstrap, Git</div>
+            <div class="timeline__stack"><a href="https://github.com/lampnthe173556/SU25_EXE201_HouseWithLeaves_Project"
+                target="_blank">GitHub Repository</a></div>
+            <ul class="timeline__bullets">
+              <li
+                data-lang-en="Developed a full-stack e-commerce web application using ASP.NET Core MVC, allowing customers to browse and purchase products and enabling admins to manage store operations."
+                data-lang-vi="Phát triển web e-commerce full-stack với ASP.NET Core MVC, cho phép khách mua hàng, admin quản lý.">
+                Developed a full-stack e-commerce web application using ASP.NET Core MVC, allowing customers to browse
+                and purchase products and enabling admins to manage store operations.</li>
+              <li
+                data-lang-en="Designed and built the client-facing UI/UX using HTML/CSS, JavaScript, and Razor Views, including the Homepage, Shop, Cart, and Order History pages."
+                data-lang-vi="Thiết kế, xây dựng UI/UX với HTML/CSS, JavaScript, Razor View: Trang chủ, Shop, Giỏ hàng, Lịch sử mua.">
+                Designed and built the client-facing UI/UX using HTML/CSS, JavaScript, and Razor Views, including the
+                Homepage, Shop, Cart, and Order History pages.</li>
+              <li
+                data-lang-en="Integrated diverse payment solutions, including Cash-on-Delivery (COD) and QR Code payments."
+                data-lang-vi="Tích hợp nhiều phương thức thanh toán: COD, QR Code.">Integrated diverse payment
+                solutions, including Cash-on-Delivery (COD) and QR Code payments.</li>
+              <li data-lang-en="Engineered a detailed role-based authorization system (RBAC) to manage user access."
+                data-lang-vi="Xây dựng hệ thống phân quyền chi tiết (RBAC).">Engineered a detailed role-based
+                authorization system (RBAC) to manage user access.</li>
+              <li
+                data-lang-en="Developed an automated email system (order confirmations, password resets) using RazorLight for dynamic HTML content."
+                data-lang-vi="Phát triển hệ thống email tự động (xác nhận đơn, quên mật khẩu) với RazorLight.">Developed
+                an automated email system (order confirmations, password resets) using RazorLight for dynamic HTML
+                content.</li>
+              <li data-lang-en="Managed media storage and retrieval by integrating the MinIO object storage solution."
+                data-lang-vi="Quản lý lưu trữ media với MinIO object storage.">Managed media storage and retrieval by
+                integrating the MinIO object storage solution.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__role" data-lang-en="Personal Project" data-lang-vi="Dự án cá nhân">Personal Project
+            </div>
+            <div class="timeline__company" data-lang-en="Manage School Schedules" data-lang-vi="Quản lý thời khóa biểu">
+              Manage School Schedules <span class="timeline__team">(4 members)</span></div>
+            <div class="timeline__duration">05/2025 – 06/2025</div>
+            <div class="timeline__stack"
+              data-lang-en="Technologies: ASP.NET Core (Web API, OData), Entity Framework, SQL Server, JWT, Google.Apis.Auth, AutoMapper, MinIO, MailKit, Swagger, Git"
+              data-lang-vi="Công nghệ: ASP.NET Core (Web API, OData), Entity Framework, SQL Server, JWT, Google.Apis.Auth, AutoMapper, MinIO, MailKit, Swagger, Git">
+              Technologies: ASP.NET Core (Web API, OData), Entity Framework, SQL Server, JWT, Google.Apis.Auth,
+              AutoMapper, MinIO, MailKit, Swagger, Git</div>
+            <div class="timeline__stack"><a href="https://github.com/lamnthe172601/Manegement_Schedule"
+                target="_blank">GitHub Repository</a></div>
+            <ul class="timeline__bullets">
+              <li
+                data-lang-en="Led backend development, building RESTful APIs for a schedule management application with a Next.js frontend."
+                data-lang-vi="Chủ trì backend, xây dựng RESTful API cho ứng dụng quản lý thời khóa biểu (Next.js frontend).">
+                Led backend development, building RESTful APIs for a schedule management application with a Next.js
+                frontend.</li>
+              <li data-lang-en="Designed and implemented efficient RESTful APIs using ASP.NET Core Web API and OData."
+                data-lang-vi="Thiết kế, triển khai RESTful API hiệu quả với ASP.NET Core Web API, OData.">Designed and
+                implemented efficient RESTful APIs using ASP.NET Core Web API and OData.</li>
+              <li
+                data-lang-en="Built a secure user authentication and role-based access control (RBAC) system using JWT (JSON Web Tokens)."
+                data-lang-vi="Xây dựng xác thực, phân quyền bảo mật với JWT.">Built a secure user authentication and
+                role-based access control (RBAC) system using JWT (JSON Web Tokens).</li>
+              <li
+                data-lang-en="Integrated Google login functionality via OAuth2 to enhance security and user experience."
+                data-lang-vi="Tích hợp đăng nhập Google OAuth2 nâng cao bảo mật, trải nghiệm.">Integrated Google login
+                functionality via OAuth2 to enhance security and user experience.</li>
+              <li
+                data-lang-en="Utilized MailKit and MimeKit to develop automated email workflows for business processes."
+                data-lang-vi="Sử dụng MailKit, MimeKit phát triển workflow email tự động cho nghiệp vụ.">Utilized
+                MailKit and MimeKit to develop automated email workflows for business processes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact section-fade visible" id="contact" style="margin-bottom:3.5rem;">
+      <div class="section-title" data-lang-en="Contact" data-lang-vi="Liên hệ" style="margin-bottom:2.5rem;">Contact
+      </div>
+      <div class="contact__links">
+        <a href="https://www.facebook.com/phamlamdeptrai/" target="_blank">Facebook</a>
+        <a href="https://github.com/lampnthe173556" target="_blank">GitHub</a>
+        <a href="./img/Back-End-Developer-.NET_PhamNgocTungLam.pdf" download data-lang-en="Download CV (PDF)"
+          data-lang-vi="Tải CV (PDF)">Download CV (PDF)</a>
+      </div>
+    </section>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
